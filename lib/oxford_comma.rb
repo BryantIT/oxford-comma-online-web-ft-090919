@@ -1,5 +1,5 @@
 def oxford_comma(array)
   oxford = [array.pop]
-  array.join(" ") << ("," oxford)
+  array.join(" ") << ("," (oxford))
   
 end
